@@ -1,0 +1,14 @@
+name: Workflow with Email Identifier
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 23f2003550@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
